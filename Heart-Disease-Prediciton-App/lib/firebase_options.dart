@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCKLTNsWNdDm-G9MOTZNhPk58J9jTPlYlE',
+    apiKey: '{Your_API_KEY}',
     appId: '1:317363244771:android:8836f32cf01e00a4e93fd6',
     messagingSenderId: '317363244771',
     projectId: 'heart-disease-prediction-f8dbf',
