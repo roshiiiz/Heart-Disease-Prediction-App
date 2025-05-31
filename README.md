@@ -1,26 +1,25 @@
 Heart Disease Prediction App
-**Overview**
+Overview
 The Heart Disease Prediction App is a project designed to predict the likelihood of heart disease based on user-provided health parameters. It includes a Flask-based web application powered by a Random Forest Classification model and a Flutter-based mobile application for cross-platform access. The project leverages the UCI Heart Disease dataset from Kaggle to train the model, offering both web and mobile interfaces for user interaction.
-
 Features
+Web App (Flask)
 
-**Web App (Flask)**
 User-friendly web interface for inputting health parameters.
 Utilizes a Random Forest Classifier for accurate predictions.
 Provides interpretable results to assess heart disease risk factors.
 Responsive design compatible with various devices.
 
-**Mobile App (Flutter)**
+Mobile App (Flutter)
 
 Cross-platform support for Android and iOS.
 Portable heart disease risk predictions on mobile devices.
 Intuitive UI for entering health parameters.
 (Optional) Offline prediction capability if implemented.
 
-**Dataset**
+Dataset
 The model is trained on the UCI Heart Disease Dataset, featuring 14 attributes:
 
-**Age
+Age
 Sex (0 for female, 1 for male)
 Chest Pain Type (0-3)
 Resting Blood Pressure
@@ -33,9 +32,10 @@ Oldpeak (ST depression)
 Slope of the Peak Exercise ST Segment
 Number of Major Vessels (0-3)
 Thalassemia (3 = normal; 6 = fixed defect; 7 = reversible defect)
-Target (0 = no heart disease, 1 = heart disease)**
+Target (0 = no heart disease, 1 = heart disease)
 
-**Installation**
+Installation
+Web App (Flask)
 
 Clone the repository:git clone https://github.com/roshiiiz/Heart-Disease-Prediction-App.git
 cd Heart-Disease-Prediction-App
@@ -57,16 +57,16 @@ Navigate to the Flutter app folder (e.g., flutter_app):cd flutter_app
 
 Install dependencies:flutter pub get
 
+
 Run the app:flutter run
+
 
 
 Usage
 Web App
 
-Open (http://127.0.0.1:8000/predict in Postman or anyother api testing service
-Enter health parameters in the form.
-**E.G**
-{
+Open http://127.0.0.1:8000/predict in Postman or any other API testing service.
+Enter health parameters in the form. E.G.:{
     "age": 90,
     "sex": 1,
     "cp": 3,
@@ -82,6 +82,7 @@ Enter health parameters in the form.
     "thal": 3
 }
 
+
 Click "Predict" to see the result.
 
 Mobile App
@@ -89,7 +90,6 @@ Mobile App
 Launch the app on your device.
 Input health parameters.
 Tap "Predict" for the prediction.
-
 
 Contact
 Open an issue on GitHub for questions or feedback.
