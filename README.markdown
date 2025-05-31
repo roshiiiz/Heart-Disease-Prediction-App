@@ -34,7 +34,7 @@ The model is trained on the UCI Heart Disease Dataset, featuring 14 attributes:
    ```
 3. Run the app:
    ```bash
-   python app.py
+   python -m uvicorn main:app --reload
    ```
 4. Access at `http://127.0.0.1:8000/predict`
 
