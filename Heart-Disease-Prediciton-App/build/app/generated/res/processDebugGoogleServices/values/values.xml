@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">317363244771</string>
+    <string name="google_api_key" translatable="false">AIzaSyCKLTNsWNdDm-G9MOTZNhPk58J9jTPlYlE</string>
+    <string name="google_app_id" translatable="false">1:317363244771:android:8836f32cf01e00a4e93fd6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCKLTNsWNdDm-G9MOTZNhPk58J9jTPlYlE</string>
+    <string name="google_storage_bucket" translatable="false">heart-disease-prediction-f8dbf.firebasestorage.app</string>
+    <string name="project_id" translatable="false">heart-disease-prediction-f8dbf</string>
+</resources>

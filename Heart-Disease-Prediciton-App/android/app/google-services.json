@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317363244771",
+    "project_id": "heart-disease-prediction-f8dbf",
+    "storage_bucket": "heart-disease-prediction-f8dbf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317363244771:android:8836f32cf01e00a4e93fd6",
+        "android_client_info": {
+          "package_name": "com.example.heart_disease_prediction"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKLTNsWNdDm-G9MOTZNhPk58J9jTPlYlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

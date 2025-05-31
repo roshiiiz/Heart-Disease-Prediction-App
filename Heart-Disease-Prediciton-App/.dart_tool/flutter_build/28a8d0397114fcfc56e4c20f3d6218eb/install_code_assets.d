@@ -1,0 +1,1 @@
+ D:\\Projects\\Github\\Heart-Disease-Prediciton-App\\.dart_tool\\flutter_build\\28a8d0397114fcfc56e4c20f3d6218eb\\native_assets.json: 
